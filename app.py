@@ -17,7 +17,7 @@ st.set_page_config(
 # 2. TẢI MÔ HÌNH
 # ==========================================
 
-bundle = joblib.load("/content/random_forest_bundle.pkl")
+bundle = joblib.load("random_forest_bundle.pkl")
 
 model = bundle["model"]
 metadata = bundle["metadata"]
