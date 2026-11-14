@@ -53,13 +53,11 @@ display_names = {
     "Productivity_Loss_Score": "Mức độ ảnh hưởng đến năng suất",
     "Offline_Relationship_Quality": "Chất lượng mối quan hệ ngoài đời",
     "Physical_Activity_Hrs_Week": "Thời gian hoạt động thể chất mỗi tuần (giờ)",
-    "Screen_Free_Time_Hrs": "Thời gian không sử dụng thiết bị điện tử (giờ)",
-    "Mental_Wellbeing_Score": "Mức độ sức khỏe tinh thần"
+    "Screen_Free_Time_Hrs": "Thời gian không sử dụng thiết bị điện tử (giờ)"
+   
 }
 
-# ==========================================
 # 4. CÂU HỎI TỰ ĐÁNH GIÁ
-# ==========================================
 
 score_questions = {
     "FOMO_Score": "Bạn sợ bỏ lỡ thông tin trên mạng xã hội ở mức độ nào?",
@@ -72,13 +70,12 @@ score_questions = {
     "Self_Esteem_Score": "Bạn đánh giá sự tự tin của bản thân ở mức độ nào?",
     "Sleep_Quality_Score": "Bạn đánh giá chất lượng giấc ngủ của mình như thế nào?",
     "Productivity_Loss_Score": "Mạng xã hội ảnh hưởng đến học tập hoặc công việc của bạn ở mức độ nào?",
-    "Offline_Relationship_Quality": "Bạn đánh giá chất lượng các mối quan hệ ngoài đời như thế nào?",
-    "Mental_Wellbeing_Score": "Bạn đánh giá sức khỏe tinh thần của mình như thế nào?"
+    "Offline_Relationship_Quality": "Bạn đánh giá chất lượng các mối quan hệ ngoài đời như thế nào?"
+
 }
 
-# ==========================================
+#
 # 5. DỊCH KẾT QUẢ
-# ==========================================
 
 label_translation = {
     "Low": "Thấp",
@@ -87,9 +84,8 @@ label_translation = {
     "Severe": "Nghiêm trọng"
 }
 
-# ==========================================
+#
 # 6. CHIA NHÓM THÔNG TIN
-# ==========================================
 
 groups = {
     "👤 1. Thông tin cá nhân": [
@@ -116,8 +112,8 @@ groups = {
         "Anxiety_Score",
         "Depression_Score",
         "Loneliness_Score",
-        "Self_Esteem_Score",
-        "Mental_Wellbeing_Score"
+        "Self_Esteem_Score"
+       
     ],
 
     "🌙 4. Giấc ngủ và sức khỏe": [
@@ -140,9 +136,9 @@ integer_features = [
     "Notifications_Per_Day"
 ]
 
-# ==========================================
+#
 # 7. TIÊU ĐỀ
-# ==========================================
+#
 
 st.title("📱 DỰ ĐOÁN MỨC ĐỘ NGHIỆN MẠNG XÃ HỘI")
 
